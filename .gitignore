@@ -1,0 +1,25 @@
+# Python cache and virtual environments
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Build output and archives
+build/
+dist/
+*.spec
+*.exe
+*.zip
+*.7z
+
+# Local data and settings
+docdat/
+dict_tab.json
+*.db
+*.db-*
+*.ini
+*.docx
+*.doc
+~$*
+.env
+.env.*
