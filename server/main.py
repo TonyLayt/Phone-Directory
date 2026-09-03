@@ -664,7 +664,7 @@ class TableBook (QtWidgets.QMainWindow):
         style_6 = hdr_cells[5].paragraphs[0]
         style_6.add_run('Кабінет').bold = True
         
-        with open ('dict_tab.json', 'r') as filread:
+        with open ('docdat\\dict_tab.json', 'r') as filread:
             out_text = json.load(filread)
             
             for item in out_text:

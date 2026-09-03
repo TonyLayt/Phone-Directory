@@ -7,6 +7,7 @@ venv/
 # Build output and archives
 build/
 dist/
+/Phone-Directory-Windows-x64/
 *.spec
 *.exe
 *.zip
