@@ -25,7 +25,7 @@ class Server ():
                 self.config.write(configfile)
              
     def find_client (self):
-        print (f'Сервер телефонного довідника Мінсоцполітики [v.0.6]\n(c) TonyLayt\n\nадреса сервера: {self.ip}:{self.port} \n\nОчікує підключення...')
+        print (f'Сервер телефонного довідника [v.0.6]\n(c) TonyLayt\n\nадреса сервера: {self.ip}:{self.port} \n\nОчікує підключення...')
         while True:
             new_socket, addres = self.main_socket.accept()
             

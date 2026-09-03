@@ -263,8 +263,7 @@ class TableBook (QtWidgets.QMainWindow):
     
     def save_word(self):
         doc = docx.Document()
-        doc.add_picture('ico/gerb2.png', width=Mm(25))
-        doc.add_heading('Телефонний довідник Мінсоцполітики', 0)
+        doc.add_heading('Телефонний довідник', 0)
         st = doc.styles['Normal']
         st.font.size = Pt(13)
         
